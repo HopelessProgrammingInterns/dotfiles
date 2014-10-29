@@ -152,3 +152,8 @@ nnoremap - ddp
 nnoremap + ddP
 inoremap jk <esc>
 " inoremap <esc> <nop>
+nnoremap ö :tabn<CR>
+nnoremap ä <c-w>w
+map <del> <nop>
+nnoremap ü ]
+nnoremap üü [
