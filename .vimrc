@@ -157,3 +157,7 @@ nnoremap ä <c-w>w
 map <del> <nop>
 nnoremap ü ]
 nnoremap üü [
+
+" Syntastic for js
+let g:syntastic_javascript_checkers = ['jsl']
+let g:syntastic_javascript_jsl_args = "-conf /etc/jsl.conf"
