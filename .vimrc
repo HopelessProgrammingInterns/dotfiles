@@ -142,6 +142,11 @@ set guioptions-=R
 set guioptions-=L
 set guioptions-=b
 
+" latex
+set grepprg=grep\ -nH\ $*
+let g:tex_flavor='latex'
+let g:Tex_DefaultTargetFormat='pdf'
+
 " experiments
 nnoremap - ddp
 nnoremap + ddP
