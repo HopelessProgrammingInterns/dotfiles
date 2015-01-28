@@ -1,0 +1,1 @@
+splitw -h -p 50 'vim' # split current pane and run 'vim' command inside the new one
