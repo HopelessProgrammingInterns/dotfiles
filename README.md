@@ -29,3 +29,5 @@ Please note that using the config file provided will remap the prefix to
 When using the config file you can navigate between the tmux planes using alt + h,j,k,l vim style.
 
 If you include the script 'dev' provided and save it under ~/.tmux/dev you can use the shortcut prefix + D to split the current window vertically and open vim in the new plane.
+
+If you use elementary os, it is best to start tmux with `tmux -2`.
